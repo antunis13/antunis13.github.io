@@ -1,0 +1,70 @@
+
+    *{
+       margin: 0;
+       padding: 0;     
+     }  
+
+.foto
+{
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px white; 
+    margin-top: 16px;
+    
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+  background: rgb(54,77,204);
+  background: radial-gradient(circle, rgba(54,77,204,1) 0%, rgba(12,27,107,1) 100%);
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.profile{
+    text-align: center;
+}
+h2{
+    margin-top: 1px;
+}
+.social img{
+    width: 30px;
+    margin: 0px 8px 0px 8px;
+
+
+}
+.social{
+
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 0px;
+}
+.link-list a{
+    width: auto;
+    background-color: white;
+    margin: 10px 10px;
+    display:list-item;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow:1px 1px 5px white;
+    border: 1px solid white;
+    color: rgb(54,77,204);
+}
+.link-list span{
+ 
+    color: grey;
+    font-weight: 500;
+    display: block;
+}
